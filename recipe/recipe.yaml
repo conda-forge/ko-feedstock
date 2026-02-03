@@ -10,7 +10,7 @@ source:
   sha256: 1006eb94b6260690ab3ec79cbd03342e09cb0f32cecdd1b8743fa216e2fe7b0e
 
 build:
-  number: 0
+  number: 1
   script:
     - go-licenses save ./ --save_path=./license-files --ignore github.com/cyberphone/json-canonicalization/go/src/webpki.org/jsoncanonicalizer --ignore github.com/in-toto/attestation --ignore github.com/in-toto/in-toto-golang
     - if: not win

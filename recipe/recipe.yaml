@@ -1,5 +1,5 @@
 context:
-  version: "0.19.0"
+  version: "0.19.1"
 
 package:
   name: ko
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ko-build/ko/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 76275e4262faf2aab10507b969a50728dbc3f48511e61d138c834243f60452b1
+  sha256: 7accc1f4ad074285086573b084387bef5871872ef16e3f292d5818a99e4feeae
 
 build:
   number: 0
